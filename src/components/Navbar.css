@@ -1,0 +1,25 @@
+.ul-list{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.ul-list > .lists{
+    display: flex;
+    list-style: none;
+    /* width: fit-content; */
+    height: 35px;
+    border-radius: 10px;
+    /* background-color: #FDD835; */
+    border: 1px solid #FDD835;
+    justify-content: center;
+    box-shadow: 0.5px 0.5px 4px #5a5641;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    
+} 
+.ul-list > .lists > a{
+    text-decoration: none;
+    color: white;
+}
